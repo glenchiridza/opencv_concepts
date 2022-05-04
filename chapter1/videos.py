@@ -1,7 +1,11 @@
 import cv2
 
-img = cv2.imread("../assets/person.png")
+vid = cv2.VideoCapture("../assets/vid.mp4")
 
-cv2.imshow("image",img)
+while True:
+    success,img = vid.read()
+    cv2.imshow("video",img)
 
-cv2.waitKey(0)
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+

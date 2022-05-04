@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4880177-b376-4b7a-abac-fa2cb1664f2b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/vid.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/scaling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/webcam.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter1/videos.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/videos.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
       <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.videos">
+  <component name="RunManager" selected="Python.scaling">
     <configuration name="images" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="opencv_concepts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,6 +57,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter1/images.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scaling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="opencv_concepts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter1/scaling.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,8 +107,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="webcam" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="opencv_concepts" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter1/webcam.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.scaling" />
+        <item itemvalue="Python.webcam" />
         <item itemvalue="Python.videos" />
         <item itemvalue="Python.images" />
       </list>
@@ -107,21 +151,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1341" height="175" key="GridCell.Tab.0.bottom" timestamp="1651686265342">
+    <state width="1341" height="175" key="GridCell.Tab.0.bottom" timestamp="1651686631687">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1341" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1651686265342" />
-    <state width="1341" height="175" key="GridCell.Tab.0.center" timestamp="1651686265341">
+    <state width="1341" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1651686631687" />
+    <state width="1341" height="175" key="GridCell.Tab.0.center" timestamp="1651686631687">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1341" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1651686265341" />
-    <state width="1341" height="175" key="GridCell.Tab.0.left" timestamp="1651686265341">
+    <state width="1341" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1651686631687" />
+    <state width="1341" height="175" key="GridCell.Tab.0.left" timestamp="1651686631686">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1341" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1651686265341" />
-    <state width="1341" height="175" key="GridCell.Tab.0.right" timestamp="1651686265342">
+    <state width="1341" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1651686631686" />
+    <state width="1341" height="175" key="GridCell.Tab.0.right" timestamp="1651686631687">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1341" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1651686265342" />
+    <state width="1341" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1651686631687" />
   </component>
 </project>

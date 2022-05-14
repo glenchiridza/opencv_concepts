@@ -42,7 +42,7 @@
       <recent name="$PROJECT_DIR$/chapter1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.contours">
+  <component name="RunManager" selected="Python.virtual_painter">
     <configuration name="color_detection" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="opencv_concepts" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="shapes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="virtual_painter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="opencv_concepts" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,7 +118,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter1/shapes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter1/virtual_painter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.virtual_painter" />
         <item itemvalue="Python.contours" />
         <item itemvalue="Python.color_detection" />
         <item itemvalue="Python.join_images" />
         <item itemvalue="Python.warp_perspective" />
-        <item itemvalue="Python.shapes" />
       </list>
     </recent_temporary>
   </component>
@@ -172,22 +172,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1341" height="175" key="GridCell.Tab.0.bottom" timestamp="1652534355460">
+    <state width="1341" height="175" key="GridCell.Tab.0.bottom" timestamp="1652534642170">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1341" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1652534355460" />
-    <state width="1341" height="175" key="GridCell.Tab.0.center" timestamp="1652534355458">
+    <state width="1341" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1652534642170" />
+    <state width="1341" height="175" key="GridCell.Tab.0.center" timestamp="1652534642169">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1341" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1652534355458" />
-    <state width="1341" height="175" key="GridCell.Tab.0.left" timestamp="1652534355458">
+    <state width="1341" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1652534642169" />
+    <state width="1341" height="175" key="GridCell.Tab.0.left" timestamp="1652534642169">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1341" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1652534355458" />
-    <state width="1341" height="175" key="GridCell.Tab.0.right" timestamp="1652534355459">
+    <state width="1341" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1652534642169" />
+    <state width="1341" height="175" key="GridCell.Tab.0.right" timestamp="1652534642170">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1341" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1652534355459" />
+    <state width="1341" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1652534642169" />
     <state x="337" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1651827029401">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

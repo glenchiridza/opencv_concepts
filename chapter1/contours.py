@@ -25,11 +25,23 @@ def getContours(img):
             # from the bounding box we can get the total width,height,centerwidth of the object
             x, y, w, h = cv2.boundingRect(approximate)
             # note that we can detect from the len(approximate) that 3 means triange, 4 means squarer or rectange, etc
-            if objCorners == 3: object_type = "Tri"
-            else: object_type = "None"
+            if objCorners == 3:
+                object_type = "Tri"
+            # here for 4 sides we should know the difference between  square n rectangle, we know
+            # for a square if we divide the width and height we should get 1, coz all sides are equal else rectangle
+            elif objCorners == 4:
+                aspect_ratio = w / float(h)  # define one of them as float, since we are dealing with decimals
+                if 0.95 < aspect_ratio < 1.05:  # means we can have a deviation of 5%
+                    object_type = "Square"
+                else:
+                    object_type = "Rectangle"
+            elif objCorners > 4:
+                object_type = "Circle"
+            else:
+                object_type = "None"
             cv2.rectangle(imgContour, (x, y), (x + w, y + h), (0, 255, 0), 2)
             cv2.putText(imgContour, object_type, \
-                        (x + (w // 2) - 10, y + (h // 2) - 10), cv2.FONT_HERSHEY_PLAIN, 0.6,
+                        (x + (w // 2) - 10, y + (h // 2) - 10), cv2.FONT_HERSHEY_PLAIN, 0.7,
                         (0, 0, 0),
                         2)  # x+(w//2)-10 , y+(h//2) to get the center point of x and y which results in  the center
             # point coordinate(x,y)

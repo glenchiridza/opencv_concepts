@@ -20,20 +20,24 @@ color_values = [
 
 points = [
 
-] # x, y, color_idx
+]  # x, y, color_idx
 
 
 def findColor(img, my_colors, color_vals):
     imgHSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
     count = 0
+    newer_points = []
     for color in my_colors:
         lower = np.array(color[0:3])  # h_min, s_min, v_min
         upper = np.array(color[3:6])  # h_max, s_max, v_max
         mask = cv2.inRange(imgHSV, lower, upper)
         x, y = getContours(mask)
         cv2.circle(imgResult, (x, y), 10, color_vals[count], cv2.FILLED)
+        if x != 0 and y != 0:
+            newer_points.append([x, y, count])
         count += 1
         # cv2.imshow(str(color[0]) + " img", mask)
+    return newer_points
 
 
 def getContours(img):
@@ -59,11 +63,15 @@ def drawOnCanvas(points, color_vals):
         cv2.circle(imgResult, (point[0], point[q]), 10, color_vals[point[2]], cv2.FILLED)
 
 
-
 while True:
     success, img = vid.read()
     imgResult = img.copy()
-    new_points = findColor(img, myColors,color_values)
+    new_points = findColor(img, myColors, color_values)
+    if len(new_points) != 0:
+        for new_p in new_points:
+            points.append(new_p)
+    if len(points) != 0:
+        drawOnCanvas(points, color_values)
     cv2.imshow("video", imgResult)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
